@@ -1,0 +1,10 @@
+computational thinking is the step that come before programming
+decompostion :-
+breaking down a complex problem or system into smaller ,more mangement parts(fragments).
+pattern recogination:-
+looking for similarites among and within problems.
+abstraction:-
+focusing on the important information only ,inoring irrelevant details;
+algorithms:-
+developing a step-by-step solution to the problem,or the rules to follow to solve the problems
+bug is kind of unwanted output of program;

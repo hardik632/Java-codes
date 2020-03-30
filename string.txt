@@ -1,0 +1,77 @@
+
+object is superclass af all classes 
+what is string?
+
+string is found in lava.lang package.
+no need to import java.lang package
+
+
+
+object:
+String s="hardik";
+String s=new String("hardik");
+
+
+
+operation:
+concatenation;
+comparison;
+substring;
+length of string;
+compareTo;
+equals;
+equalsIgnoreCase(String another String);
+int CompareToIgnoreCase();
+String trim();
+--------------------------------------------------------------------------------------------------------------------
+
+StringBuffer vs string(interview)
+---------------------------------
+---------------
+|string buffer|
+---------------
+1.it is mutable
+2.string buffer is fast and consumes less memory when you concat string
+3.string buffer class doesnot override the equals() method of object class
+----------------------------------------------------------------------
+-------
+|string|
+-------
+1.string objects are immutable(which cannot be modified);
+2.string is slow and consumes more memory when you concat too many string because 
+every times it create new instance
+3.string class overrides the equals() methods of objectclass. so you can compare te content of two string by
+ equals() method;
+------------------------------------------------------------------------------------------------------------------
+
+
+methods of stringbuffer:-
+-------------------------
+reverse();
+Insert();
+append();
+replace();
+deleteCharAt();
+delete();
+toString();
+-------------------------------------------------------------------------------------------------------------------
+difference between stringbuffer and string builder
+-----------------------------------------------------
+all the things b/w stringbuffer and stringbuilder are same only differences stringbuffer is
+ synchronized and strigbuilder is not synchronised.
+synchronised means one thread is allow at a time so thread safe.
+not synchronised means multiple threads are allow at the time so it is not thread safe;
+--------------------------------------------------------------------------------------------------------------------
+
+string tokenizer
+it is predefined class java.util pacake can be used to split the given string into tokens.
+--------------------------------------------------------------------------------------------------------------------
+methods of stringtokenizer:-
+
+hasMoreTokens() used to check whether given stringtokenizer having any element or not;
+nextToken() used to get element from stringtokenizer
+---------------------------------------------------------------------------------------------------------------------
+to string is found in object class its return type is hashcode
+
+
+

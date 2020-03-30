@@ -1,0 +1,100 @@
+					interview
+
+top asked question oops,exception handling ,string handling,file (how to read and write a file),buffer reader-buffer writer,widening and narrowing.
+feauters of oops are:
+1.class
+2.object
+3.inheritance
+4.polymorphism
+5.encapsulation
+6.abstraction
+7.data hidding
+
+
+difference between abstract and interface
+
+abstract
+a method without body
+- abstract class can have abstract and non abstract methods.
+- abstract class does not support multiple inheritance.
+- abstract class can have final ,no final,static,non static variables.
+- abstract class can provide implementation of interfaces
+-----------------------------------------------------------------------------------------------
+ 
+
+interface
+
+=it is set of rules and regulations 
+- inteface can have only abstract methods.since java 8,it can hva default and static methods also.
+- inteface supports multiple inheritance.
+- interface has only static and final variables;
+- interface can't provide the implementation of abstract class;
+------------------------------------------------------------------------------------------------
+
+StringBuffer vs string(interview)
+---------------------------------
+---------------
+|string buffer|
+---------------
+1.it is mutable
+2.string buffer is fast and consumes less memory when you concat string
+3.string buffer class doesnot override the equals() method of object class
+------------------------------------------------------------------------------------------------
+-------
+|string|
+-------
+1.string objects are immutable(which cannot be modified);
+2.string is slow and consumes more memory when you concat too many string because 
+every times it create new instance
+3.string class overrides the equals() methods of objectclass. so you can compare te content of two string by equals() method;
+-------------------------------------------------------------------------------------------------
+
+acess_modifier within_class_within_package  outside_package_by_subclass_only	outside_package
+-------------------------------------------------------------------------------------------------
+private		y		n			n				n
+-------------------------------------------------------------------------------------------------
+default		y		y			n				n
+-------------------------------------------------------------------------------------------------
+protected	y		y			y				n	
+-------------------------------------------------------------------------------------------------
+public		y		y			y				y
+-------------------------------------------------------------------------------------------------
+
+
+
+POlYMORPHISM
+-------------
+
+many forms one thing that behave different at different place.
+two types:
+static  , overloading, complile time.
+dynamic , overriding , runtime time.
+method overloading is the feature that allows a class to have two or more methodsto have same name.
+
+--------------------------------------------------------------------------------------------------Difference between method overloading and overriding.
+
+
+Method overloading is used to increase the readibility of program.
+Method overloading is performed within the class.
+In case of method overriding parameter must be different.
+Method overloading si the example of compile time polymorphism.
+In java.method overloading can't be performed by changing return type of the method only.return
+type can be same or different in method overloading but want to change the parameter.
+----------------------------------------------------------------------
+Method overriding is used to provide the specific implementaation of the method that is already
+provided by its super class.
+Method overriding occurs in two classes that have IS-A(inheritance) relationship.
+In case of method overriding,parameter must be same.
+Method overrriding is example of run time polymorphism.
+Return type must be same or covariant in method overriding.
+--------------------------------------------------------------------------------------------------
+
+
+abstraction:it is process of hiding the implementation details and showing only functionality to the user.
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
